@@ -24,7 +24,7 @@ export const rootReducer = combineReducers({
 To use the updater, you'll need an instance of the Uniswap Multicall2 contract:
 
 ```js
-import { abi as MulticallABI } from '@uniswap/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
+import { abi as MulticallABI } from '@cndlabs/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
 import { Contract } from '@ethersproject/contracts'
 import { UniswapInterfaceMulticall } from './abi/types'
 
